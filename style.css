@@ -40,6 +40,11 @@ body {
 a.active::after {
   width: 80%;
 }
+@media (max-width: 400px) {
+  .navbar {
+    padding: 0.5rem 0rem !important;
+  }
+}
 
 .navbar a {
   text-transform: uppercase;
@@ -54,8 +59,8 @@ a.active::after {
   padding: 6.5rem 2rem !important;
 }
 
-mbservice {
-  margin-bottom: 2rem !important;
+.pad-contact {
+  padding: 6.5rem 0rem !important;
 }
 
 .bg-image {
@@ -206,12 +211,6 @@ ul {
   text-decoration: none;
 }
 
-#contact-me .container,
-#foot .container {
-  padding-left: 0px !important;
-  padding-right: 0px !important;
-}
-
 #about {
   background: black;
   color: #fff;
@@ -237,20 +236,6 @@ ul {
   border-radius: 0rem !important;
 }
 
-@media (min-width: 300px) {
-  .form-set {
-    margin-left: 2rem;
-    margin-right: 2rem;
-  }
-}
-
-@media (min-width: 768px) {
-  .form-set {
-    margin-left: 0rem;
-    margin-right: 0rem;
-  }
-}
-
 .btn-submit {
   background: #18d26e;
   border-color: #18d26e;
@@ -260,11 +245,6 @@ ul {
 
 .btn-submit:hover {
   background: #15bb62;
-}
-
-#services .container {
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .btn:focus {
