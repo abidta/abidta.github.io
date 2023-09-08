@@ -278,6 +278,11 @@ ul {
   color: var(--main);
 }
 
+#mailMe a{
+color: white;
+text-decoration: none;
+}
+
 .error {
   color: #dc3545;
 }
