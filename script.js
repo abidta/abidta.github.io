@@ -4,7 +4,12 @@ $(window).on("load", function () {
 
 // Type Writer
 var typed3 = new Typed("#typed3", {
-  strings: ["Developer^2000", "Designer^2000", "Web Developer^2000", "Freelancer^2000"],
+  strings: [
+    "Developer^2000",
+    "Designer^2000",
+    "Web Developer^2000",
+    "Freelancer^2000",
+  ],
   typeSpeed: 50,
   backSpeed: 50,
   smartBackspace: true, // this is a default
@@ -25,7 +30,6 @@ function scrollFunction() {
 
 //form validation
 
-var form = document.getElementById("contact-form");
 $(document).ready(function () {
   $("#contact-form").validate({
     rules: {
@@ -67,7 +71,7 @@ $(document).ready(function () {
   });
 });
 
-// form submission Ajax
+// form submission
 
 var form = document.getElementById("contact-form");
 
