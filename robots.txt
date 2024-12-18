@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://abita.github.io/sitemap.xml
