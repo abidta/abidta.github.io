@@ -6,6 +6,7 @@ $(window).on("load", function () {
 var typed3 = new Typed("#typed3", {
   strings: [
     "Full Stack Developer^2000",
+    "Open Sourcerer^2000"
     "Software Architect^2000",
     "System Designer",
     "Web Developer^2000",
