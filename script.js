@@ -5,8 +5,9 @@ $(window).on("load", function () {
 // Type Writer
 var typed3 = new Typed("#typed3", {
   strings: [
-    "Developer^2000",
-    "Designer^2000",
+    "Full Stack Developer^2000",
+    "Software Architect^2000",
+    "System Designer",
     "Web Developer^2000",
     "Freelancer^2000",
   ],
